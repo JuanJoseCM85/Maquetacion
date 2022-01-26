@@ -1,0 +1,19 @@
+{
+  "name": "maquetacion",
+  "version": "1.0.0",
+  "description": "Semana 3 Maquetacion",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuanJoseCM85/Maquetacion.git"
+  },
+  "author": "Juan José Cabrera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuanJoseCM85/Maquetacion/issues"
+  },
+  "homepage": "https://github.com/JuanJoseCM85/Maquetacion#readme"
+}
