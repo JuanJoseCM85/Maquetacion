@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Sedgwick+Ave&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=PT+Sans+Narrow&family=Sedgwick+Ave&display=swap');
+*{
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+    
+}
+
+body{
+    background-color: rgb(238, 227, 196);
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.titulo{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Sedgwick Ave', cursive;
+    padding: 15px;
+    background-color: rgb(255, 98, 1);
+    color: white;
+    font-size: 30px;
+}
+
+.barraNavegacion{
+    margin-top: 0px;
+    padding: 10px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Sedgwick Ave', cursive;
+    background-color: rgb(250, 163, 0);
+
+    
+}
+
+.container{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    height: 400px;
+    
+}
+
+.presentacion{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Sedgwick Ave', cursive;
+    padding-top: 40px;
+    font-size: 20px;
+    
+}
+
+.imagenesMuestra{
+    
+}
+
+.imagenesMuestra__contenedor{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border: 1px solid grey;
+}
+
+.imagen{
+    margin: 10px;
+    width: 150px;
+    border: 1px solid lightgrey;
+}
+
+.imagen:hover{
+    border: 1px solid black;
+}
+
+.enlace{
+    color: black;
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 1px;
+    transition: background-size .3s;
+    
+}
+
+.enlace:hover, .enlace:focus {
+    background-size: 100% 1px;
+}
+
+.pie{
+    margin-top: 20px;
+    color: rgb(75, 69, 75);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100vw;
+}

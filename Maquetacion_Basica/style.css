@@ -57,7 +57,7 @@
   width: 75vw;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: space-between;
 }
 
 .header-cont-izdo {
