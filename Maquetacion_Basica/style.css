@@ -66,8 +66,7 @@
   border-radius: 10px;
   height: 80px;
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  flex-direction: column;
   padding-left: 10px;
 }
 
