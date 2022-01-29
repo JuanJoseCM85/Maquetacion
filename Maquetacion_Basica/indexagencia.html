@@ -5,17 +5,102 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style-agencia.css">
+    <script src="./funciones.js"></script>
     <title>Document</title>
 </head>
 <body>
     <main class="main">
         <section class="cabecera">
             <div class="logo">
-                <p>Logo</p>
+                <img class="logoAgencia" src="./images/LogoViajes.png" alt="Logo Travel">
             </div>
             <div class="menu-sup">
-                <p>Menu-sup</p>
+                <div>Nuestra Agencia</div>
+                <div>Nuestro Compromiso</div>
+                <div><p>¿Necesitas Ayuda?</p>
+                    <p class="telefono">950556655</p>
+                </div>
             </div>
+        </section>
+        <section class="menu">
+            <div><a href="">ISLAS</a></div>
+            <div><a href="">MADRID</a></div>
+            <div><a href="">BARCELONA</a></div>
+            <div><a href="">REPUBLICA DOMINICANA</a></div>
+            <div><a href="">ISLAS FEROE</a></div>
+        </section>
+        <section class="galeriaPpal">
+            <img src="./images/agencia1.jpg" alt="">
+        </section>
+        <section class="contendorAnuncios">
+            <div class="descripcion">
+                <h4> Nuestro viajes te harán sentir como en casa, estamos especializados en hacerte sentir bien. ¡Dejanos acompañarte en tu viaje!</h4>
+            </div>
+            <section class="buscador">
+                
+                    <div class="labelBuscador">
+                        <p>Buscador</p>
+                    </div>
+                    <div class="formulario">
+                        <div class="form">
+                            <form action="" onsubmit="return false">
+                                <input type="text" id="nombre" placeholder="Nombre">
+                                <input type="text" id="origen" placeholder="Origen">
+                                <input type="text" id="destino" placeholder="Destino">
+                                <input type="text" id="nviajeros" placeholder="Nº Viajeros">
+                                <input type="date" id="fecha" placeholder="Fecha">
+                                <button class="botonInfo" onclick="obtenerDatos()"> Más info </button>
+                                <button class="botonFiltrado" onclick="mostrarRegistros()"> Filtrar </button>
+                            </form>
+                        </div>  
+                    </div>
+                    
+            </section>
+            <div class="elegirViaje">
+                <h4> ELIGE TU VIAJE</h4>
+            </div>
+            <div class="viajes">
+                <div class="viaje1">
+                    <button class="botonViaje">Más Info </button>
+                </div>
+                <div class="viaje2">
+                    <button class="botonViaje">Más Info </button>
+                </div>
+                <div class="viaje3">
+                    <button class="botonViaje">Más Info </button>
+                </div>
+                <div class="viaje4">
+                    <button class="botonViaje">Más Info </button>
+                </div>
+                <div class="viaje5">
+                    <button class="botonViaje">Más Info </button>
+                </div>
+            </div>
+
+            <div class="elegirViaje">
+                <h4> RESULTADOS DE LA BUSQUEDA</h4>
+            </div>
+            <div class="viajeros">
+                <p>Lista de Viajeros con destino Canarias, Mallorca, Galicia </p>
+                <ul id="lista" class="lista">
+                    
+                </ul>
+            </div>
+
+            <footer class="footer">
+                <div class="derechos">
+                    <p>&copy; 2022 Start Travel</p>
+                </div>
+                <div class="acercade">
+                    <ul>
+                        <li><a href="/acerca-de">Acerca de</a></li>
+                        <li><a href="/conectar">Conectar</a></li>
+                        <li><a href="/rrss">Redes Sociales</a></li>
+                    </ul>
+                </div>
+                    
+            </footer>
+        
         </section>
     </main>
     
