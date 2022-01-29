@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Suez+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@600&display=swap');
 * {
   margin: 0px;
   padding: 0px;
@@ -7,24 +12,26 @@
 .main {
   width: 100vw;
   height: 100vh;
-  font-family: Poppins, "Arial Black", Gadget, sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .banner-sup {
+  font-family: 'Roboto', sans-serif;
   width: 100vw;
-  height: 40px;
+  height: 100px;
   background-color: rgb(36, 0, 255);
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+
+  font-weight: bold;
 }
 
 .banner-sup p {
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .img-menu {
@@ -50,6 +57,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  font-family: 'Roboto', sans-serif;
 }
 .menu__enlaces a {
   text-decoration: none;
@@ -126,6 +134,7 @@
   width: 550px;
 }
 .footer {
+  font-family: 'Big Shoulders Text', cursive;
   background-color: rgb(49, 51, 53);
   color: white;
   display: flex;
@@ -137,10 +146,145 @@
   border-top: 2px solid blue;
 }
 
+.footer__secciones{
+  margin-top: 20px;
+}
+
 ul {
   text-decoration: none;
   list-style: none;
 }
 ul li {
   font-weight: 250;
+}
+
+.contacto{
+
+
+}
+
+.cuerpoCentral{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+  background: linear-gradient(to bottom, blue, rgb(155, 162, 255) 80%, rgb(255, 255, 255));
+  border-radius: 5px;
+  /* background: radial-gradient(rectangular closest-side, rgb(23, 1, 121), rgb(40, 0, 185) 10%, #1E90FF 50%, white); */
+  /* border-top-color:blue; */
+  /* background: linear-gradient(to right, blue, white); */
+}
+
+.contacto{
+  width: 50%;
+  z-index: 1;
+  margin-left: -100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:flex-start;
+  padding-bottom: 50px;
+}
+
+.imgContact{
+  width: 60%;
+  /* background: linear-gradient(to right, blue, white); */
+ 
+}
+.imagenContacto{
+
+}
+.imagenContacto img{
+  height: 400px;
+  margin-left 30px;
+}
+
+.mensajeContacto{
+  color: rgb(255, 255, 255);
+  font-family: 'Suez One', serif;
+  font-size: 50px;
+}
+
+.formulario{
+  border: 0px;
+  /* margin-left: -110px; */
+}
+
+.formulario input, select {
+  color: rgb(29, 28, 28);
+  border: 0px;
+  border-bottom: 1px solid black;
+  width: 400px;
+  background: transparent;
+  font-family: 'Suez One', serif;
+  text-decoration: none;
+  margin-top: 10px;
+ 
+}
+
+.formulario input:focus{
+  border-color: transparent;
+}
+
+.formulario button{
+  background-color: blue;
+  width: 120px;
+  height: 40px;
+  color: white;
+  font-family: 'Suez One', serif;
+  font-size: 15px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: transparent;
+}
+
+.formulario button:hover{
+  border: transparent;
+  box-shadow: 0px 15px 20px rgba(138, 148, 247, 0.4);
+}
+
+.containerCurso {
+  width: 75vw;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.curso{
+  border: 3px solid blue;
+  border-radius: 5px;
+  width: 300px;
+  height: 400px;
+  margin-top: 50px;
+  margin-left: 20px;
+  font-family: 'Big Shoulders Text', cursive;
+}
+
+.textoCurso{
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.tituloCurso{
+  
+  font-size: 25px;
+}
+
+.precio{
+
+  font-size: 35px;
+  color: blue;
+  margin-top: 20px;
+}
+
+.curso img{
+  width: 250px;
+  margin-top: 10px;
+}
+
+.duracion{
+  font-family: 'Big Shoulders Text', cursive;
+  font-size: 15px;
 }
